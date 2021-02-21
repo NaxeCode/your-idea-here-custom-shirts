@@ -8,7 +8,11 @@ export default function Home() {
 	return (
 		<div className="Main">
 			<mainSite className="Content">
-				<img src={Logo} alt="Shirt that reads 'Your Idea Here'" />
+				<img
+					className="Logo"
+					src={Logo}
+					alt="Shirt that reads 'Your Idea Here'"
+				/>
 				<h1 className="Title">Your Idea Here</h1>
 				<h3 className="Text">Create Your Own Custom Shirt</h3>
 				<button className="Button" onClick={() => editPage()}>
